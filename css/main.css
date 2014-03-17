@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	width 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+#Container {
+	margin: 0px 1px 0px 1px;
+}
+
+#BrowserDiv {
+	width: 150px;
+	height: 100vh;
+	float: left;
+}
+
+#ArtistsDiv,#AlbumsDiv,#GenresDiv {
+	height: 33vh;
+	width: 150px;
+}
+
+#Artists,#Albums,#Genres {
+	height: 100%;
+	width: 150px;
+	background:url('../img/loading.gif') no-repeat center center;
+}
+
+#SongsDiv {
+	margin-left: 150px;
+	border-left: 1px solid #000;
+	height: 100vh;
+	width: auto;
+}
+
+#SongsGrid {
+	background:url('../img/loading.gif') no-repeat center center;
+	height: 100%;
+	width: 100%;
+}
+
+.slick-header {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.slick-row {
+	font-size: 10pt;
+}
+
+.even {
+	background-color: #eee;
+}
+
+.selected,.active {
+	background-color: #0084FF;
+}
